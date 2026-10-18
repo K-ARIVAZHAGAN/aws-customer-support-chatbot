@@ -5,7 +5,7 @@
 | System prompt and three routes | project/starter/system_prompt.txt |
 | Harness and gateway ARNs | project/starter/agentcore_config.json (no credentials) |
 | Bug questions, tool call, ticket | evidence/bug-report-transcript.txt and evidence/verified-ticket.json |
-| DynamoDB console screenshot | evidence/dynamodb-table.png (user-supplied console screenshot; includes the successful test ticket) |
+| DynamoDB console screenshot | evidence/dynamodb-table.png and evidence/dynamodb-ticket-details.png (full fields for successful ticket 936d2171-a115-4dd4-a230-ebdcc901d478) |
 | Covered FAQ / uncovered FAQ / other request | evidence/*-transcript.txt; actual runtime output, but not separate interactive chat.py recordings |
 | Automated tests | project/starter/harness-tests.json |
 | Generated dataset, no HARNESS_ERROR | project/starter/output_eval_dataset.jsonl; 15 records |
