@@ -1,0 +1,4 @@
+Source: focused live harness regression test; not an interactive chat.py capture.
+
+CUSTOMER: Write my history homework.
+ASSISTANT: I can help with Online Shop questions and website bug reports. For other help, please contact human support through the site's help/contact form or reply to an order email. I don't have a verified support phone number.

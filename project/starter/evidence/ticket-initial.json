@@ -1,0 +1,8 @@
+{
+  "environment": "Chrome on Windows 11 desktop.",
+  "createdAt": "2026-10-18T02:17:56.577312+00:00",
+  "description": "Checkout page goes blank instead of confirming payment.",
+  "stepsToReproduce": "Add a shirt, open checkout, and click Pay.",
+  "ticketId": "c00cc50b-ab3b-48b9-9da7-4962866d266b",
+  "status": "OPEN"
+}

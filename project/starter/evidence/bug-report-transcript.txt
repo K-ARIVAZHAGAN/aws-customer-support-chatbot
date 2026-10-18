@@ -1,0 +1,19 @@
+# Successful multi-turn bug report
+Source: verify_multiturn.py invoking the same chat.invoke function used by chat.py. This is captured live output, not a separately recorded interactive CLI run.
+
+CUSTOMER: The checkout page crashes.
+ASSISTANT: To help you, I need more details. Please describe the actions you took that led to the crash.
+
+
+CUSTOMER: I add a shirt, open checkout, and click Pay. It goes blank instead of confirming payment.
+ASSISTANT: Thank you. Could you please tell me which browser, operating system, and device you are using?
+
+
+CUSTOMER: Chrome on Windows 11 desktop.
+ASSISTANT:
+[tool call] bugreports___create_bug_report
+Thank you for the details. I've filed the bug and your ticket ID is 936d2171-a115-4dd4-a230-ebdcc901d478.
+
+
+CUSTOMER: Thanks. What is my ticket ID?
+ASSISTANT: Your ticket ID is 936d2171-a115-4dd4-a230-ebdcc901d478. If you have more questions, feel free to ask.

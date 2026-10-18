@@ -1,0 +1,44 @@
+{
+  "jobName": "support-chatbot-20261018-022734",
+  "jobDescription": "Course chatbot: real harness outputs, Nova Pro judge.",
+  "roleArn": "arn:aws:iam::062966552587:role/bedrock-eval-role",
+  "applicationType": "ModelEvaluation",
+  "evaluationConfig": {
+    "automated": {
+      "datasetMetricConfigs": [
+        {
+          "taskType": "General",
+          "dataset": {
+            "name": "support-chatbot-tests",
+            "datasetLocation": {
+              "s3Uri": "s3://udacity-agentic-engineer-c1-eval-062966552587/input/20261018-022734/output_eval_dataset.jsonl"
+            }
+          },
+          "metricNames": [
+            "Builtin.Correctness",
+            "Builtin.Helpfulness"
+          ]
+        }
+      ],
+      "evaluatorModelConfig": {
+        "bedrockEvaluatorModels": [
+          {
+            "modelIdentifier": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
+          }
+        ]
+      }
+    }
+  },
+  "inferenceConfig": {
+    "models": [
+      {
+        "precomputedInferenceSource": {
+          "inferenceSourceIdentifier": "my-support-chatbot"
+        }
+      }
+    ]
+  },
+  "outputDataConfig": {
+    "s3Uri": "s3://udacity-agentic-engineer-c1-eval-062966552587/results/20261018-022734/"
+  }
+}

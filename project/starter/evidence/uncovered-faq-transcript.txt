@@ -1,0 +1,4 @@
+Source: real automated harness invocation; not an interactive chat.py capture.
+
+CUSTOMER: Do you price-match competitors?
+ASSISTANT: The FAQ does not specify a price-match policy. Please contact human support through the site's help/contact form or reply to an order email.

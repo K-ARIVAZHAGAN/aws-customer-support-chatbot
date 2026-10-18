@@ -1,0 +1,8 @@
+{
+  "environment": "Chrome on Windows 11 desktop.",
+  "createdAt": "2026-10-18T02:24:46.204570+00:00",
+  "stepsToReproduce": "Add a shirt to the cart, open checkout, and click Pay.",
+  "description": "Checkout page goes blank after clicking Pay.",
+  "ticketId": "936d2171-a115-4dd4-a230-ebdcc901d478",
+  "status": "OPEN"
+}

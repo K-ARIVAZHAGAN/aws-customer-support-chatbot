@@ -1,0 +1,15 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "f7f99c27-68d4-47ca-9b3a-e544ba6a78aa",
+    "HTTPStatusCode": 202,
+    "HTTPHeaders": {
+      "date": "Sun, 18 Oct 2026 02:30:04 GMT",
+      "content-type": "application/json",
+      "content-length": "79",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "f7f99c27-68d4-47ca-9b3a-e544ba6a78aa"
+    },
+    "RetryAttempts": 0
+  },
+  "jobArn": "arn:aws:bedrock:us-east-1:062966552587:evaluation-job/gr1s0fqps5l2"
+}

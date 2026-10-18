@@ -1,0 +1,4 @@
+Source: real automated harness invocation; not an interactive chat.py capture.
+
+CUSTOMER: What is the return policy?
+ASSISTANT: According to the FAQ, you can return most items within 30 days of delivery as long as they're unused and in original packaging (unless the item arrived defective). For more details, please refer to the FAQ section on Returns & Refunds. If you have any specific questions or need further assistance, feel free to ask!
