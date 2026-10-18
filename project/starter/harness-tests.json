@@ -58,12 +58,12 @@
     {
       "id": "handoff-unrelated",
       "prompt": "Write my history homework.",
-      "expected": "Politely direct to human shop support without doing the unrelated task, inventing a phone number or filing a bug."
+      "expected": "Politely direct to human shop support without doing the unrelated task, inventing a phone number or filing a bug. Explicitly redirect to the human support phone line; since no verified number is supplied, offer the contact form or order email to request it. Never invent a number."
     },
     {
       "id": "handoff-unknown",
       "prompt": "What is your support phone number?",
-      "expected": "Explain that no verified phone number is available; offer the site help/contact form or reply to an order email."
+      "expected": "Explain that no verified phone number is available; offer the site help/contact form or reply to an order email. Explicitly redirect to the human support phone line; since no verified number is supplied, offer the contact form or order email to request it. Never invent a number."
     },
     {
       "id": "handoff-order-action",
@@ -73,7 +73,7 @@
     {
       "id": "handoff-no-policy",
       "prompt": "Do you price-match competitors?",
-      "expected": "Do not invent a price-match policy; direct to human support."
+      "expected": "Do not invent a price-match policy; direct to human support. Explicitly redirect to the human support phone line; since no verified number is supplied, offer the contact form or order email to request it. Never invent a number."
     }
   ]
 }

@@ -32,4 +32,4 @@ Actual per-record results from completed Bedrock job `gr1s0fqps5l2`, using Amazo
 
 These judge scores apply to the full-suite dataset before the last handoff revision. The final focused handoff test is saved separately. The successful multi-turn transcript and matching DynamoDB item verify tool behavior independently of the judge. No completed full-suite judge score is claimed for later prompt edits.
 
-The supplied FAQ has no support phone number; the user confirmed none was supplied elsewhere. No number was invented. Current handoffs use the documented contact form/email; strict phone-line wording remains a rubric discrepancy to resolve or disclose.
+The supplied FAQ has no support phone number; the user confirmed none was supplied elsewhere. No number was invented. The final deployed prompt now explicitly redirects to human phone support, explains that no verified number was supplied, and offers the contact form/email to request it. Both handoff paths passed live scripted chat.py tests; see evidence/phone-handoff-cli-tests.json. The prior judge scores were not rerun for this wording-only correction.

@@ -52,3 +52,11 @@ prefix when complete. Preserve results before cleaning up the lab.
 Python syntax checks and git diff whitespace checks passed. Model behavior can
 vary; the saved real transcripts and results are the evidence, not the prompt's
 intended behavior alone.
+
+## Final rubric wording correction
+
+Both uncovered FAQ and unrelated request paths now explicitly refer to the human
+support phone line without inventing a number. Actual successful chat.py CLI
+outputs are saved in project/starter/evidence/phone-handoff-cli-tests.json. These
+focused tests validate the final wording; the reported full-suite judge scores
+remain those of the earlier evaluated version.

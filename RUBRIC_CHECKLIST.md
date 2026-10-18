@@ -14,10 +14,14 @@
 | Actual per-record observations | EVALUATION_OBSERVATIONS.md |
 
 Evidence paths above are relative to project/starter where not fully qualified.
-The phone number was not supplied. Current contact-form/email fallback does not
-literally satisfy the rubric's phone-line handoff wording; no number was invented.
-DynamoDB screenshots and interactive chat.py screenshots for all required paths
-are included. The remaining known rubric discrepancy is the phone-line handoff
-wording; resolve it or disclose the missing phone number before submission.
+The course supplied no phone number. The final prompt explicitly refers to the
+human support phone line, states that no verified number is available, and uses
+the documented contact form/email to request it. Both uncovered-FAQ and unrelated
+request cases passed live scripted chat.py CLI tests; see
+project/starter/evidence/phone-handoff-cli-tests.json.
+DynamoDB screenshots and interactive chat.py screenshots for every required path
+are included. Earlier screenshots show the previous handoff wording; the new CLI
+evidence records the final deployed wording. Judge scores remain associated with
+the earlier evaluated dataset, not this final wording change.
 Optional standout features (a pre-model guardrail, Knowledge Base, classifier
 node) are not required and have not been added.

@@ -1,0 +1,14 @@
+[
+  {
+    "scripted_user_input": "Do you price-match competitors?",
+    "stdout": "Connected to harness support_chatbot (session 74c4fc5f-2461-4a04-8b71-31d8136a2bbd-support-chat).\nType a message, or 'quit' to exit.\n\nyou> bot> The FAQ does not specify a price-match policy. Please contact our human support phone line. I don't have a verified phone number; use the site's help/contact form or reply to an order email to request it.\n\nyou> ",
+    "stderr": "",
+    "exit_code": 0
+  },
+  {
+    "scripted_user_input": "Write my history homework.",
+    "stdout": "Connected to harness support_chatbot (session 79d2ed1e-b4a7-4284-a734-70647b5ed43b-support-chat).\nType a message, or 'quit' to exit.\n\nyou> bot> I can help with Online Shop questions and website bug reports. For other help, please contact our human support phone line. I don't have a verified phone number; use the site's help/contact form or reply to an order email to request it.\n\nyou> ",
+    "stderr": "",
+    "exit_code": 0
+  }
+]
